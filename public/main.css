@@ -107,6 +107,7 @@ h2 {
 
 h3 {
   font-size: 1.953rem;
+  text-align: center;
 }
 
 h4 {
@@ -210,6 +211,7 @@ textarea {
   color: var(--red-dark);
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .task-form,
@@ -446,4 +448,8 @@ form > :last-child {
 
 input:focus{
   outline: none;
+}
+
+#dateTime{
+ text-align: center;
 }

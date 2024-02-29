@@ -4,6 +4,29 @@ const loadingDOM = document.querySelector('.loading-text')
 const formDOM = document.querySelector('.task-form')
 const taskInputDOM = document.querySelector('.task-input')
 const formAlertDOM = document.querySelector('.form-alert')
+const dateTimeDOM = document.getElementById('dateTime');
+
+function updateDateTime() {
+  const now = new Date();
+  const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+  };
+  const formattedDateTime = now.toLocaleDateString('en-US', options);
+  dateTimeDOM.textContent = formattedDateTime;
+}
+
+// Set initial date and time
+updateDateTime();
+
+// Update date and time every second
+setInterval(updateDateTime, 1000);
+
 
 
 // Function to set dark mode state
