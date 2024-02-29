@@ -15,8 +15,6 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/ajilkumar/To-do-list-app?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/ajilkumar/To-do-list-app?style=social) ![Issues](https://img.shields.io/github/issues/ajilkumar/To-do-list-app) 
-
 
 ## About The Project
 
