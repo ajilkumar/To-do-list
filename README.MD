@@ -43,7 +43,7 @@ Experience productivity in style! Toggle between light and dark mode with a user
 
 1. Clone the repo
 ```sh
-git@github.com:ajilkumar/To-do-list-app.git
+git@github.com:ajilkumar/To-do-list.git
 ```
 
 2. Install NPM packages
